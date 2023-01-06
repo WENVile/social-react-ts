@@ -1,0 +1,21 @@
+.nav {
+    grid-area: nav;
+    background-color: black;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.item a, .item a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.item:hover {
+    background-color: white;
+    color: black;
+}
+
+.item:hover a{
+    background-color: white;
+    color: black;
+}
